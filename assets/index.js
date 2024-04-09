@@ -55,3 +55,14 @@ window.onload = function() {
     document.body.appendChild(css);
 };
 document.getElementsByid("test").window.alert('test')
+
+const inputField = document.getElementsByClassName('search');
+const myDiv = document.getElementById('projects_colums');
+
+inputField.addEventListener('input', (event) => {
+    if (event.target.value === 'contact') {
+        myDiv.style.display = 'flex'; // Show the div when the correct text is inputted
+    } else {
+        myDiv.style.display = 'none'; // Hide the div when the correct text is not inputted
+    }
+});
