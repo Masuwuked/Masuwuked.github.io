@@ -42,6 +42,7 @@
             height: 3px;
             width: 32vw;
             border-radius: 5px;
+            z-index: 1;
         }
         
         .container {
