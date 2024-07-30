@@ -54,3 +54,16 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
+document.getElementsByid("test").window.alert('test')
+
+
+$('#audio-control').click(function() {
+    if ($("#background-video").prop('mute')) {
+        $("#background-video").prop('mute', false);
+        $(this).text('Mute');
+
+    } else {
+        $("#background-video").prop('mute', true);
+        $(this).text('Unmute');
+    }
+});

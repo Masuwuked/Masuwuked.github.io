@@ -1,0 +1,51 @@
+@font-face {
+    font-family: earthorbit;
+    src: url(assets/earthorbiter.ttf);
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+#light {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Take full size */
+    height: 100vh;
+    width: 100%;
+    /* Background */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.541);
+    background: url('assets/upper.png') center center / cover no-repeat;
+    /* Font-Properties */
+    color: aliceblue;
+}
+
+.dim {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Take full size */
+    height: 100vh;
+    width: 100%;
+    /* Background */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.562);
+    background: url('assets/dark.png') center center / cover no-repeat;
+    /* Font-Properties */
+    color: aliceblue;
+}
