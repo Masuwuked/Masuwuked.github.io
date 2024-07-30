@@ -56,14 +56,13 @@ window.onload = function() {
 };
 document.getElementsByid("test").window.alert('test')
 
+const inputField = document.getElementsByClassName('search');
+const myDiv = document.getElementById('projects_colums');
 
-$('#audio-control').click(function() {
-    if ($("#background-video").prop('mute')) {
-        $("#background-video").prop('mute', false);
-        $(this).text('Mute');
-
+inputField.addEventListener('input', (event) => {
+    if (event.target.value === 'contact') {
+        myDiv.style.display = 'flex'; // Show the div when the correct text is inputted
     } else {
-        $("#background-video").prop('mute', true);
-        $(this).text('Unmute');
+        myDiv.style.display = 'none'; // Hide the div when the correct text is not inputted
     }
 });
