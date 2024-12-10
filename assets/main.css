@@ -29,6 +29,8 @@
         -ms-overflow-style: none;
         /* Disable scrollbar IE 10+ */
         overflow-y: scroll;
+        padding-left: 2%;
+        padding-right: 2%;
     }
     
     body::-webkit-scrollbar {
