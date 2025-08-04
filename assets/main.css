@@ -2,23 +2,25 @@
         font-family: earthorbit;
         src: url(earthorbiter.ttf);
     }
-    
+
     @font-face {
         font-family: odin;
         src: url(Odin\ Rounded\ -\ Regular.ttf);
     }
-    
+
     @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
     @-moz-document url-prefix() {
+
         /* Disable scrollbar Firefox */
         html {
             scrollbar-width: none;
         }
     }
-    
+
     body {
         margin: 0;
         font-family: "Titillium Web", sans-serif;
@@ -32,27 +34,29 @@
         padding-left: 2%;
         padding-right: 2%;
     }
-    
+
     body::-webkit-scrollbar {
         width: 0px;
         background: transparent;
         /* Disable scrollbar Chrome/Safari/Webkit */
     }
-    
+
     html {
         background-color: rgb(24, 20, 3);
         overflow: scroll;
     }
-    
-     ::-webkit-scrollbar {
+
+    ::-webkit-scrollbar {
         width: 0;
         background: transparent;
     }
-    
+
     body {
         overflow: hidden;
     }
-    
+
+
+
     .box {
         width: 650px;
         padding-top: 0%;
@@ -60,42 +64,46 @@
         border: 5px;
         border-color: aliceblue;
     }
-    
+
     .title {
         font-size: 25px;
         color: rgb(238, 221, 198);
         padding-top: 3%;
     }
-    
+
     .para {
         font-size: 15px;
         width: 600px;
     }
-    
+
     high {
         color: rgb(255, 214, 161);
     }
+
     /* unvisited link */
-    
+
     a:link {
         color: rgb(238, 221, 198);
     }
+
     /* visited link */
-    
+
     a:visited {
         color: rgb(238, 221, 198);
     }
+
     /* mouse over link */
-    
+
     a:hover {
         color: rgb(255, 255, 254);
     }
+
     /* selected link */
-    
+
     a:active {
         color: rgb(255, 228, 72);
     }
-    
+
     subhead {
         font-size: 17px;
     }
