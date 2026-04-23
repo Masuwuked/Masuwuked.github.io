@@ -1,0 +1,38 @@
+@font-face {
+    font-family: MesloLGLNerdFont;
+    src: url(assets/MesloLGLNerdFont-Regular.ttf);
+}
+
+body {
+    font-family: MesloLGLNerdFont, monospace;
+    background-color: #090018;
+    color: #e0aaff;
+}
+
+a:link {
+    color: #bbd0ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #bbd0ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #bbd0ff;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #bbd0ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+pre {
+    white-space: pre;
+}

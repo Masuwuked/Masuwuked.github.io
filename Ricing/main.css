@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
 body {
-    background-color: #414288;
+    background-color: linear-gradient(135deg, #414288, #2a5298);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,9 +71,11 @@ span:nth-child(4) {
     0% {
         filter: (100%);
     }
+
     50% {
         filter: brightness(150%);
     }
+
     100% {
         filter: brightness(100%);
     }
